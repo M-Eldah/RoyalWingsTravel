@@ -7,6 +7,9 @@ $OceanBlue:#375357;
 .primary-color{
     color: $primary-color;
 }
+.background-color{
+    background-color: $primary-color !important;
+}
 .primary-light{
     color: $primary-light;
 }
