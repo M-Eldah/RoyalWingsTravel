@@ -61,6 +61,7 @@ tr{
         background: linear-gradient(90deg, #375357 50%, #37535768 81%, rgba(131,58,180,0) 100%);
         font-weight: 200;
         position: absolute; font-size: 72px; bottom: 50px;color: $primary-light; min-width: 450px; max-width: fit-content; padding: 0px 10px;
+        z-index: 30;
     }
     img{
         width: 100%; height: 100%; object-fit: cover;

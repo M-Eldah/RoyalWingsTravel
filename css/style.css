@@ -74,6 +74,7 @@ tr th {
   max-width: -moz-fit-content;
   max-width: fit-content;
   padding: 0px 10px;
+  z-index: 30;
 }
 .GalleryReel img {
   width: 100%;
