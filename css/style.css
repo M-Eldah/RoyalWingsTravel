@@ -92,4 +92,28 @@
   .heroSection .heroLogo svg {
     height: 200px !important;
   }
+}
+
+.Section1 h1 {
+  font-size: 82px;
+}
+@media only screen and (max-width: 912px) {
+  .Section1 {
+    text-align: center;
+  }
+  .Section1 div:first-of-type {
+    padding: 0px !important;
+  }
+  .Section1 h1 {
+    font-size: 62px;
+  }
+}
+
+.variable-Widthcontainer {
+  width: 60vw !important;
+}
+@media only screen and (max-width: 912px) {
+  .variable-Widthcontainer {
+    width: 90vw !important;
+  }
 }/*# sourceMappingURL=style.css.map */

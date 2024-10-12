@@ -86,3 +86,25 @@ $OceanBlue:#375357;
     }
    
 }
+.Section1
+{
+    h1{
+        font-size: 82px;
+    }
+    
+    @media only screen and (max-width: 912px) {
+        div:first-of-type{
+            padding: 0px !important;
+        }
+        text-align:center;
+        h1{
+          font-size: 62px;
+        }
+    }
+}
+.variable-Widthcontainer{
+    width: 60vw !important;
+    @media only screen and (max-width: 912px) {
+        width: 90vw !important;
+    }
+}
