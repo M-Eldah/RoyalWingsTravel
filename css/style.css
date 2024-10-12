@@ -4,4 +4,92 @@
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.navbar {
+  background-color: #f4f1ed;
+  position: fixed !important;
+  width: 100%;
+  height: 50px;
+}
+@media only screen and (max-width: 912px) {
+  .navbar {
+    height: 60px;
+  }
+  .navbar a {
+    height: 50px;
+    position: relative;
+    top: -15px;
+  }
+}
+
+.sectionContainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.fitContainer {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  width: 100%;
+}
+
+.heroSection {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+}
+.heroSection h1:first-of-type {
+  padding-top: 150px !important;
+}
+.heroSection h1 {
+  padding-top: 120px;
+}
+.heroSection .tagline {
+  width: 850px;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+  padding-top: 0px;
+}
+@media only screen and (max-width: 900px) {
+  .heroSection h1:first-of-type {
+    padding-top: 100px !important;
+  }
+  .heroSection h1 {
+    padding-top: 40px;
+  }
+  .heroSection .tagline {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    bottom: -75px;
+    padding-top: 0px;
+  }
+}
+.heroSection .heroLogo {
+  height: 180px;
+  width: 100vw !important;
+}
+.heroSection .heroLogo h1 {
+  padding: 0px !important;
+  font-size: 108px;
+}
+.heroSection .heroLogo svg {
+  height: 350px !important;
+}
+@media only screen and (max-width: 900px) {
+  .heroSection .heroLogo {
+    height: 280px;
+  }
+  .heroSection .heroLogo h1 {
+    padding: 0px !important;
+    font-size: 46px;
+    text-align: center;
+  }
+  .heroSection .heroLogo svg {
+    height: 200px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

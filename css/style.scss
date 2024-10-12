@@ -13,3 +13,76 @@ $OceanBlue:#375357;
     font-optical-sizing: auto;
     font-style: normal;
 }
+.navbar{
+    background-color: #f4f1ed;
+    position: fixed !important;
+    width: 100%;
+    height: 50px;
+    @media only screen and (max-width: 912px) {
+        height: 60px;
+        a{
+            height: 50px;
+            position: relative;
+            top: -15px;
+        }
+    }
+}
+.sectionContainer{
+    height: 100vh; width: 100%;
+}
+.fitContainer{
+    height: fit-content !important; width: 100%;
+}
+.heroSection
+{
+    position: relative; overflow: hidden; color: #ffffff;
+    h1:first-of-type{
+        padding-top: 150px !important;
+    }
+    h1{
+        padding-top: 120px;
+    }
+    .tagline{
+        width: 850px; font-size: 48px; text-align: center; position: relative; bottom: -50px;
+        padding-top: 0px;
+    } 
+    @media only screen and (max-width: 900px) {
+        h1:first-of-type{
+            padding-top: 100px !important;
+        }
+        h1{
+            padding-top:40px;
+        }
+        .tagline{
+            width: 100%; font-size: 24px; text-align: center; position: relative; bottom: -75px;
+            padding-top: 0px;
+        }
+    }
+    .heroLogo{
+        height: 180px;
+        width: 100vw !important;
+        h1{
+            padding: 0px !important;
+            font-size: 108px;
+            
+        }
+        svg{
+            height: 350px !important;
+            
+        }
+        @media only screen and (max-width: 900px) {
+            height: 280px;
+            h1{
+                padding: 0px !important;
+                font-size: 46px;
+                text-align: center;
+            }
+            svg{
+                height: 200px !important;
+                
+            }
+        }
+
+    }
+   
+}
