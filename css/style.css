@@ -17,7 +17,7 @@
     height: 60px;
   }
   .navbar a {
-    height: 50px;
+    height: 5vh;
     position: relative;
     top: -15px;
   }
@@ -29,6 +29,7 @@
 }
 
 .fitContainer {
+  min-height: 95vh;
   height: -moz-fit-content !important;
   height: fit-content !important;
   width: 100%;
@@ -48,7 +49,6 @@
 .heroSection .tagline {
   width: 850px;
   font-size: 48px;
-  text-align: center;
   position: relative;
   bottom: -50px;
   padding-top: 0px;
@@ -109,11 +109,76 @@
   }
 }
 
+.section2 .HeadLine {
+  font-size: 52px;
+  text-align: center;
+}
+
+.missionSection h1:first-of-type {
+  position: absolute !important;
+  top: 30px;
+  text-align: center;
+  font-size: 102px;
+  position: relative;
+}
+.missionSection h1:last-of-type {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 90%;
+  font-size: 42px;
+}
+@media only screen and (max-width: 912px) {
+  .missionSection h1:first-of-type {
+    position: absolute !important;
+    top: 30px;
+    text-align: center;
+    font-size: 52px;
+    position: relative;
+  }
+  .missionSection h1:last-of-type {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
 .variable-Widthcontainer {
   width: 60vw !important;
 }
 @media only screen and (max-width: 912px) {
   .variable-Widthcontainer {
     width: 90vw !important;
+  }
+}
+
+.photoFooter {
+  border: #623e2a 2px solid;
+  padding: 12px;
+}
+.photoFooter h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+  align-self: center;
+}
+@media only screen and (max-width: 912px) {
+  .photoFooter h1 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    align-self: center;
+  }
+}
+
+.HugeBanner {
+  font-size: 72px;
+  font-weight: 300;
+}
+@media only screen and (max-width: 500px) {
+  .HugeBanner {
+    font-size: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -21,7 +21,7 @@ $OceanBlue:#375357;
     @media only screen and (max-width: 912px) {
         height: 60px;
         a{
-            height: 50px;
+            height: 5vh;
             position: relative;
             top: -15px;
         }
@@ -31,6 +31,7 @@ $OceanBlue:#375357;
     height: 100vh; width: 100%;
 }
 .fitContainer{
+    min-height: 95vh;
     height: fit-content !important; width: 100%;
 }
 .heroSection
@@ -43,7 +44,7 @@ $OceanBlue:#375357;
         padding-top: 120px;
     }
     .tagline{
-        width: 850px; font-size: 48px; text-align: center; position: relative; bottom: -50px;
+        width: 850px; font-size: 48px; position: relative; bottom: -50px;
         padding-top: 0px;
     } 
     @media only screen and (max-width: 900px) {
@@ -102,9 +103,68 @@ $OceanBlue:#375357;
         }
     }
 }
+.section2 {
+.HeadLine{
+    font-size: 52px; text-align: center;
+}
+}
+.missionSection{
+    h1:first-of-type{
+        position: absolute !important;
+        top: 30px;
+        text-align: center;
+        font-size: 102px;position: relative;
+    }
+    h1:last-of-type{
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+        width: 90%; font-size: 42px;
+    }
+    @media only screen and (max-width: 912px) {
+        h1:first-of-type{
+            position: absolute !important;
+            top: 30px;
+            text-align: center;
+            font-size: 52px;position: relative;
+        }
+        h1:last-of-type{
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 90%; font-size: 20px;
+        }
+    }
+    
+
+}
 .variable-Widthcontainer{
     width: 60vw !important;
     @media only screen and (max-width: 912px) {
         width: 90vw !important;
+    }
+}
+.photoFooter{
+    border: #623e2a 2px solid;
+    padding: 12px;
+    h1{
+        text-align: center;
+        font-size: 26px; 
+        font-weight: 800; 
+        align-self: center;
+    } 
+    @media only screen and (max-width: 912px) {
+        h1{
+            text-align: center;
+            font-size: 16px; 
+            font-weight: 800; 
+            align-self: center;
+        } 
+    }
+}
+.HugeBanner{
+    font-size: 72px; font-weight: 300;
+    @media only screen and (max-width:500px) {
+        font-size: 32px;
     }
 }
